@@ -90,6 +90,8 @@ Examples you might encounter:
 
 > 🚧 Most of these are still emerging and tend to be internal to companies. This section is intentionally left open for community contributions.
 
+- 🔐 **Agent Identity / Trust plugins**
+  - [TWZRD Agent Intel](https://intel.twzrd.xyz) — Zero-install MCP server for verifying calling agent wallet identity in vLLM inference pipelines that charge per-inference via x402 micropayments. Integrates as a pre-request trust check. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 ## 📚 Official Docs & Specs
 
